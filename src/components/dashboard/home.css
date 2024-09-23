@@ -1,0 +1,17 @@
+.bgImage{
+   background-image: url('https://printify.com/pfh/media/background-IAMAETLT.svg');
+   background-size: 60% 100%; 
+   background-repeat: no-repeat;
+   background-position: right;
+   background-clip: content-box;
+}
+.menuOpen{
+   display: flex;
+}
+
+@media (max-width: 480px) {
+   .footerText{
+      font-size: smaller;
+   }
+}
+
