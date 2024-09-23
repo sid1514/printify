@@ -163,7 +163,7 @@ const Navbar = () => {
           </div>
           <div>
             <button
-              className="border p-1 rounded bg-green-600 text-white w-24 h-10"
+              className="border p-1 rounded bg-blue-600 text-white w-24 h-10"
               title="signup to login"
             >
               Sign up

@@ -20,12 +20,12 @@ const IntroSection = () => {
   ];
   return (
     <div className="md:flex justify-center w-11/12 align-center h-screen p-10 bgImage">
-      <div className="md:w-1/2 rounded-full ">
-        <div className="font-extrabold md:text-6xl text-3xl space-y-2 md:pt-14 tracking-wide ">
+      <div className="md:w-1/2 bg-blue-800 p-2 rounded-xl text-white text-center  mr-10">
+        <div className="font-extrabold md:text-6xl text-3xl space-y-2 md:pt-14 tracking-wide">
           <p>Create and sell</p>
           <p>custom products</p>
         </div>
-        <div className="text-neutral-600 pt-10 pb-10 space-y-2">
+        <div className="text-neutral-300 pt-10 pb-10 space-y-2 text-center pl-16">
           <p className="flex ">
             <img
               src="check.png"
@@ -51,21 +51,16 @@ const IntroSection = () => {
             Largest global print network
           </p>
         </div>
-        <div className="md:flex md:space-x-2 space-y-4 md:space-y-0">
-          <button className="rounded text-white bg-green-600 h-12 px-2 md:w-36 w-full">
+        <div className="md:flex md:space-x-2 space-y-4 md:space-y-0 pl-16">
+          <button className="rounded text-white bg-green-600 h-12 px-2 md:w-36 w-full shadow-lg">
             Start for free
           </button>
 
-          <button className="border h-12 px-2 md:w-36 w-full flex justify-center py-2 ">
-            <img
-              src="play.png"
-              alt="https://icons8.com/icon/thV3zYWfIP1E/circled-play"
-              className="w-6 h-6 "
-            />
+          <button className="border h-12 px-2 md:w-36 w-full flex justify-center py-2 shadow-lg rounded">
             <p className="pl-2">How it works</p>
           </button>
         </div>
-        <div className="pt-4 text-green-500 mb-4">
+        <div className="pt-14 text-green-300 mb-4">
           Trusted by over 8M sellers around the world
         </div>
       </div>

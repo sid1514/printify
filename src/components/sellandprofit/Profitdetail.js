@@ -2,8 +2,8 @@ import React from "react";
 
 const Profitdetail = () => {
   return (
-    <div className="flex m-10 w-full my-12 pt-16">
-      <div className="md:w-1/2 w-11/12 shadow-lg rounded-xl bg-gradient-to-r from-slate-500 via-slate-600 to-slate-800 text-white p-10 md:space-x-10 flex justify-center">
+    <div className="flex m-12 w-full my-12 pt-16">
+      <div className="md:w-1/2 w-11/12 shadow-lg rounded-xl bg-gradient-to-r from-blue-500/75 via-blue-700 to-blue-900 text-white p-10 md:space-x-10 flex justify-center">
         <div>
           <div className="space-y-4 md:pl-0 pl-10">
             <p className="md:text-3xl text-2xl font-bold md:tracking-wide">
@@ -26,14 +26,14 @@ const Profitdetail = () => {
             </div>
           </div>
           <div className="pl-10 md:pl-0">
-            <button className="w-24 rounded h-10 bg-green-700">Start selling</button>
+            <button className="w-28 rounded h-10 bg-green-600">Start selling</button>
           </div>
           <div className="flex pl-10 md:pl-0">
             <p>100% Free to use . 900+ Products . Largest prinnt network</p>
           </div>
         </div>
       </div>
-      <div className="p-10 w-1/2 rounded-full md:block hidden shadow-lg">
+      <div className="p-4 w-1/2 rounded-full md:block hidden shadow-lg bg-blue-600/25 m-10">
         <video src="treemoney.mp4" autoPlay={true} className="rounded-full" />
       </div>
     </div>

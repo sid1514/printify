@@ -3,7 +3,7 @@ import React from "react";
 const DesignIntro = () => {
   return (
     <div className="p-10 md:flex justify-center w-full p-10 mt-10">
-      <div className="shadow-lg relative rounded-full bg-green-600 h-1/2 md:w-[50%] w-full md:flex text-white shadow-lg align-center">
+      <div className="shadow-lg relative rounded-full bg-blue-600 h-1/2 md:w-[50%] w-full md:flex text-white shadow-lg align-center">
         <img src="tshirts.png" className="md:w-1/2 md:h-full" alt="" />
         <label className="absolute md:left-[50%] md:top-[33%] md:text-3xl font-bold">
           Implement your thinking into design
