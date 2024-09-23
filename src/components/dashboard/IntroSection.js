@@ -65,14 +65,14 @@ const IntroSection = () => {
         </div>
       </div>
 
-      <div className="md:mt-0 mt-10 flex align-center h-80 relative border md:w-80 p-8 rounded-3xl bg-white shadow-lg">
+      <div className="md:mt-0 mt-10 flex align-center h-80 relative border md:w-80 p-8 rounded-3xl bg-white shadow-lg w-72">
         <img
           src="https://printify.com/pfh/assets/animations/images/img_5.png"
           alt="T-Shirt"
           className=" w-full md:h-full h-60 relative "
         />
 
-        <div className="absolute z-1 md:top-[24%] md:left-[0%] top-[20%] left-[25%]">
+        <div className="absolute md:absolute z-1 md:top-[24%] md:left-[0%] top-[20%] left-[26%]">
           <Swiper
             spaceBetween={20}
             slidesPerView={"auto"}
