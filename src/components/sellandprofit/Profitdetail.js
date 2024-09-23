@@ -3,9 +3,9 @@ import React from "react";
 const Profitdetail = () => {
   return (
     <div className="flex m-12 w-full my-12 pt-16">
-      <div className="md:w-1/2 w-11/12 shadow-lg rounded-xl bg-gradient-to-r from-blue-500/75 via-blue-700 to-blue-900 text-white p-10 md:space-x-10 flex justify-center">
-        <div>
-          <div className="space-y-4 md:pl-0 pl-10">
+      <div className="md:w-1/2 w-10/12 shadow-lg rounded-xl bg-gradient-to-r from-blue-500/75 via-blue-700 to-blue-900 text-white p-10 md:space-x-10 flex justify-center">
+        <div className="w-11/12 md:w-auto">
+          <div className="space-y-4 md:pl-0 pl-10 ">
             <p className="md:text-3xl text-2xl font-bold md:tracking-wide">
               Make Money, Risk-Free
             </p>
@@ -13,19 +13,19 @@ const Profitdetail = () => {
           </div>
           <div className="bg-grey-700 p-6 text-center space-y-6">
             <div className="flex space-x-10 w-80">
-              <p className="w-1/2">You sell a t-shirt</p>
+              <p className="md:w-1/2">You sell a t-shirt</p>
               <p>$ 30</p>
             </div>
-            <div className="flex space-x-10 w-80">
-              <p className="w-1/2">You pay for its production</p>
+            <div className="flex space-x-10 md:w-80">
+              <p className="md:w-1/2 ">You pay for its production</p>
               <p>$ 30</p>
             </div>
             <div className="flex border border-t-1 border-x-0 border-b-0 space-x-10 w-80 pt-10">
-              <p className="text-white font-bold w-1/2">Your profit</p>
+              <p className="text-white font-bold md:w-1/2">Your profit</p>
               <p>$ 18</p>
             </div>
           </div>
-          <div className="pl-10 md:pl-0">
+          <div className="pl-10 md:pl-0 py-10 md:py-4">
             <button className="w-28 rounded h-10 bg-green-600">Start selling</button>
           </div>
           <div className="flex pl-10 md:pl-0">

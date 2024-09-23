@@ -4,7 +4,7 @@ const WhatWeoffer = () => {
   const imageStyle = "rounded-full w-32 mb-4";
   const labelStyle = "font-bold text-2xl";
   return (
-    <div className="md:flex justify-center align-center w-full mt-12 p-16 space-y-10 md:space-y-4">
+    <div className="md:flex justify-center align-center w-full md:mt-12 mt-44 p-16 space-y-10 md:space-y-4">
       <div className="md:w-[40%]">
         <div className="">
           <img

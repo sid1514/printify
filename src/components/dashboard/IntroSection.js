@@ -20,12 +20,12 @@ const IntroSection = () => {
   ];
   return (
     <div className="md:flex justify-center w-11/12 align-center h-screen p-10 bgImage">
-      <div className="md:w-1/2 bg-blue-800 p-2 rounded-xl text-white text-center  mr-10">
+      <div className="md:w-1/2 bg-blue-800 p-2 rounded-xl text-white text-center md:mr-10 w-full">
         <div className="font-extrabold md:text-6xl text-3xl space-y-2 md:pt-14 tracking-wide">
           <p>Create and sell</p>
           <p>custom products</p>
         </div>
-        <div className="text-neutral-300 pt-10 pb-10 space-y-2 text-center pl-16">
+        <div className="text-neutral-300 pt-10 pb-10 space-y-2 text-center md:pl-16">
           <p className="flex ">
             <img
               src="check.png"
@@ -51,7 +51,7 @@ const IntroSection = () => {
             Largest global print network
           </p>
         </div>
-        <div className="md:flex md:space-x-2 space-y-4 md:space-y-0 pl-16">
+        <div className="md:flex md:space-x-2 space-y-4 md:space-y-0 md:pl-16">
           <button className="rounded text-white bg-green-600 h-12 px-2 md:w-36 w-full shadow-lg">
             Start for free
           </button>
@@ -65,14 +65,14 @@ const IntroSection = () => {
         </div>
       </div>
 
-      <div className="flex align-center h-80 relative border w-80 p-8 rounded-3xl bg-white shadow-lg">
+      <div className="md:mt-0 mt-10 flex align-center h-80 relative border md:w-80 p-8 rounded-3xl bg-white shadow-lg">
         <img
           src="https://printify.com/pfh/assets/animations/images/img_5.png"
           alt="T-Shirt"
-          className=" w-full h-full relative "
+          className=" w-full md:h-full h-60 relative "
         />
 
-        <div className="absolute z-1 top-[24%] left-[0%]">
+        <div className="absolute z-1 md:top-[24%] md:left-[0%] top-[20%] left-[25%]">
           <Swiper
             spaceBetween={20}
             slidesPerView={"auto"}
@@ -87,7 +87,7 @@ const IntroSection = () => {
           >
             {TshirtPattern.map((c) => (
               <SwiperSlide className="p-6 ">
-                <img src={c} alt="" className="w-24 h-24" />
+                <img src={c} alt="" className="md:w-24 md:h-24 w-20 h-20" />
               </SwiperSlide>
             ))}
           </Swiper>
