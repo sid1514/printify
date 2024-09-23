@@ -3,7 +3,7 @@ import "../dashboard/home.css";
 const Footer = () => {
     const socialMediaStyle="rounded full "
   return (
-    <div className="p-10 ">
+    <div className="p-10 text-white">
       <div className="md:flex justify-center pb-10">
         <div className="w-8/12">
           <img

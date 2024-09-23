@@ -10,14 +10,14 @@ const Navbar = () => {
     "absolute w-48 mt-4 shadow-md p-4 space-y-3 z-10 bg-white";
 
   return (
-    <div className="p-2 flex justify-center w-full shadow-md text-neutral-600 shadow-lg">
-      <nav className="w-11/12 flex justify-evenly p-4 align-center relative z-1 bg-white">
-        <div className={openMenu ? "hidden" : "md:hidden block flex"}>
+    <div className=" flex justify-center w-full text-neutral-600 relative">
+      <nav className="w-11/12 py-4 flex justify-evenly md:h-16 fixed align-center relative z-1  text-black rounded ">
+        <div className={openMenu ? "hidden " : "md:hidden block flex"}>
           <button onClick={() => setOpenMenu(true)}>
             <img
               src="https://printify.com/pfh/media/logo-old-B5JY5YNQ.svg"
               alt="logo"
-              className="w-32 pb-2 overflow-x-hidden pr-4"
+              className="w-32 pb-2 overflow-x-hidden pr-4 fill-blue-800 "
               title="logo"
             />
             <img
@@ -31,12 +31,12 @@ const Navbar = () => {
         <div
           className={
             openMenu
-              ? "menuOpen md:flex flex-col bg-white w-44"
+              ? "menuOpen md:flex flex-col w-44 "
               : "md:flex space-x-4 md:block hidden "
           }
         >
           {openMenu ? (
-            <div onClick={() => setOpenMenu(false)} className="aboslute">
+            <div onClick={() => setOpenMenu(false)} className="aboslute ">
               <button>
                 <p>X</p>
               </button>
@@ -155,7 +155,7 @@ const Navbar = () => {
         <div className="flex space-x-4 md:mt-0 mt-6">
           <div>
             <button
-              className="border p-1 rounded w-24 h-10"
+              className="border border-black p-1 rounded w-24 h-10 hover:bg-blue-600"
               title="login to proceed"
             >
               Log In
@@ -163,7 +163,7 @@ const Navbar = () => {
           </div>
           <div>
             <button
-              className="border p-1 rounded bg-blue-600 text-white w-24 h-10"
+              className="border p-1 rounded bg-blue-600 text-white w-24 h-10 hover:bg-white hover:text-black"
               title="signup to login"
             >
               Sign up

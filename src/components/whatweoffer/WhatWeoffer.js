@@ -5,7 +5,7 @@ const WhatWeoffer = () => {
   const labelStyle = "font-bold text-2xl";
   return (
     <div className="md:flex justify-center align-center w-full md:mt-12 mt-44 p-16 space-y-10 md:space-y-4">
-      <div className="md:w-[40%]">
+      <div className="md:w-[40%] ">
         <div className="">
           <img
             src="https://printify.com/pfh/assets/legacy/higher-profits.svg"

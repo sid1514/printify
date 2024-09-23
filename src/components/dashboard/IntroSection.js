@@ -20,7 +20,7 @@ const IntroSection = () => {
   ];
   return (
     <div className="md:flex justify-center w-11/12 align-center h-screen p-10 bgImage">
-      <div className="md:w-1/2 bg-blue-800 p-2 rounded-xl text-white text-center md:mr-10 w-full">
+      <div className="md:w-1/2 bg-gradient-to-r from-blue-500/75 via-blue-700 to-blue-900 h-max p-2 rounded-xl text-white text-center md:mr-10 w-full shadow-lg shadow-blue-800/25">
         <div className="font-extrabold md:text-6xl text-3xl space-y-2 md:pt-14 tracking-wide">
           <p>Create and sell</p>
           <p>custom products</p>
